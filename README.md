@@ -1,6 +1,6 @@
 <h2>Description</h2> 
 
-This plugin allows you to change/customize the "Add to cart" Button text, Used to buy a product in WooCommerce. You will be able to use different custom texts for:
+This wordpress plugin allows you to change/customize the "Add to cart" Button text, Used to buy a product in WooCommerce. You will be able to use different custom texts for:
 
 <h3>Single product page:</h3> 
 
