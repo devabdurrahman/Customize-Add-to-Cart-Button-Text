@@ -1,0 +1,104 @@
+.cacbt_main_area {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  width: 90%;
+  box-sizing: border-box;
+  margin-top: 25px;
+}
+.cacbt_common {
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 20px 25px;
+}
+.cacbt_body_area {
+  flex-basis: 70%;
+  margin-right: 5%;
+}
+.cacbt_sidebar_area {
+  flex-basis: 25%;
+  height: 550px;
+}
+.cacbt_sidebar_area.cacbt_common p{
+  text-align: center;
+}
+.cacbt_sidebar_area.cacbt_common p img {
+    width: 190px;
+    border-radius: 50%;
+    border: 5px solid #EEC643;
+}
+
+.cacbt_sidebar_area.cacbt_common h3#title {
+    margin-bottom: 20px;
+}
+
+.cacbt_sidebar_area.cacbt_common #buy-me-coffe{
+  text-align: center;
+  display: block;
+  margin-top: 30px;
+}
+
+/* need */
+.cacbt_main_area h3#title {
+  display: block;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 10px;
+  border-left: 5px solid #EEC643;
+  margin-bottom: 40px;
+  margin-top: 5px;
+}
+
+/* need */
+.cacbt_main_area label {
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 25px 0 10px 0;
+}
+
+/* need */
+h3#cacbt-sub-title {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 25px 0 0 0;
+}
+h3#cacbt-sub-title2{
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 45px 0 0 0;
+}
+
+/* need */
+.cacbt_main_area input {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ddd;
+  width: 90%;
+  padding: 5px;
+}
+
+/* need */
+.cacbt_main_area input[type="submit"] {
+  margin-top: 50px;
+  background: #EEC643;
+  border: 1px solid #EEC643;
+  color: #333;
+  padding: 8px 35px;
+  width: auto;
+  cursor: pointer;
+  transition: 0.5s;
+}
+/* need */
+.cacbt_main_area input[type="submit"]:hover {
+  background: #333;
+  border: 1px solid #333;
+  color: #EEC643;
+}
